@@ -1,13 +1,12 @@
 /**
- *  IGT
- *  Copyright 2024 IGT
+ *  Fantasma test project - Simple Slot
+ *  Copyright 2024 Nedelcu Petrica Bogdan
  *  All Rights Reserved.
  *
  *  NOTICE: You may not use, distribute or modify this document without the
  *  written permission of its copyright owner
  */
 import {SimpleSlotWheelSymbol} from "app/modules/wheel_module/component/simple-slot-wheel-symbol";
-import {Texture} from "pixi.js";
 
 export class SimpleSlotWheelConstants {
     public static reelConfigurationString: string = "SYM1,SYM5,SYM1,SYM3,SYM4,SYM3,SYM2,SYM4,SYM3,SYM6,SYM3,SYM1,SYM6,SYM1,SYM2,SYM1,SYM2,SYM2,SYM2,SYM1,SYM2,SYM1,SYM4,SYM1,SYM3,SYM6,SYM1,SYM3,SYM2,SYM5,SYM3,SYM1,SYM2,SYM2,SYM2,SYM1,SYM4,SYM1,SYM4,SYM1,SYM3,SYM2,SYM4,SYM4,SYM5,SYM2,SYM3,SYM1,SYM1,SYM1,SYM4,SYM5,SYM2,SYM2,SYM2,SYM1,SYM5,SYM6,SYM1,SYM3,SYM4,SYM2,SYM5,SYM2,SYM1,SYM5,SYM1,SYM2,SYM1,SYM1,SYM1,SYM4,SYM4,SYM3,SYM3,SYM5,SYM5,SYM4,SYM2,SYM5,SYM2,SYM1,SYM3,SYM2,SYM3,SYM1,SYM4,SYM3,SYM4,SYM2,SYM3,SYM4,SYM1,SYM1,SYM1,SYM2,SYM6,SYM3,SYM2,SYM3,SYM1,SYM5";

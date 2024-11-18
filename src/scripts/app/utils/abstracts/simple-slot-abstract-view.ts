@@ -1,13 +1,12 @@
 /**
- *  IGT
- *  Copyright 2024 IGT
+ *  Fantasma test project - Simple Slot
+ *  Copyright 2024 Nedelcu Petrica Bogdan
  *  All Rights Reserved.
  *
  *  NOTICE: You may not use, distribute or modify this document without the
  *  written permission of its copyright owner
  */
 import {SimpleSlotViewInterface} from "app/utils/interfaces/simple-slot-view-interface";
-import {PixiAppWrapper as Wrapper} from "pixi-app-wrapper";
 import Container = PIXI.Container;
 
 export class SimpleSlotAbstractView implements SimpleSlotViewInterface {

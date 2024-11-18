@@ -1,6 +1,6 @@
 /**
- *  IGT
- *  Copyright 2024 IGT
+ *  Fantasma test project - Simple Slot
+ *  Copyright 2024 Nedelcu Petrica Bogdan
  *  All Rights Reserved.
  *
  *  NOTICE: You may not use, distribute or modify this document without the
@@ -9,8 +9,8 @@
 import {SimpleSlotAbstractProxy} from "app/utils/abstracts/simple-slot-abstract-proxy";
 import {SimpleSlotAbstractView} from "app/utils/abstracts/simple-slot-abstract-view";
 import {SimpleSlotMediatorInterface} from "app/utils/interfaces/simple-slot-mediator-interface";
-import Container = PIXI.Container;
 import * as _ from "lodash";
+import Container = PIXI.Container;
 
 export class SimpleSlotAbstractMediator implements SimpleSlotMediatorInterface {
     protected _proxy: SimpleSlotAbstractProxy;

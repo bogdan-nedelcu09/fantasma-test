@@ -1,12 +1,12 @@
 /**
- *  IGT
- *  Copyright 2024 IGT
+ *  Fantasma test project - Simple Slot
+ *  Copyright 2024 Nedelcu Petrica Bogdan
  *  All Rights Reserved.
  *
  *  NOTICE: You may not use, distribute or modify this document without the
  *  written permission of its copyright owner
  */
-import { Dispatcher } from "ts-dispatcher";
+import {Dispatcher} from "ts-dispatcher";
 
 export class SimpleSlotEventDispatcher {
     protected static _instance: SimpleSlotEventDispatcher;

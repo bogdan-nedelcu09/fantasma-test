@@ -1,16 +1,14 @@
 /**
- *  IGT
- *  Copyright 2024 IGT
+ *  Fantasma test project - Simple Slot
+ *  Copyright 2024 Nedelcu Petrica Bogdan
  *  All Rights Reserved.
  *
  *  NOTICE: You may not use, distribute or modify this document without the
  *  written permission of its copyright owner
  */
-import {SimpleSlotBackgroundView} from "app/modules/background_module/view/simple-slot-background-view";
 import {SimpleSlotEndGameDecisionProxy} from "app/modules/game_logic_module/proxy/simple-slot-end-game-decision-proxy";
 import {SimpleSlotWinningsView} from "app/modules/winnings_module/view/simple-slot-winnings-view";
 import {SimpleSlotAbstractMediator} from "app/utils/abstracts/simple-slot-abstract-mediator";
-import {SimpleSlotBackgroundConstants} from "app/utils/constants/simple-slot-background-constants";
 import {SimpleSlotGlobalConstants} from "app/utils/constants/simple-slot-global-constants";
 
 export class SimpleSlotWinningsMediator extends SimpleSlotAbstractMediator {

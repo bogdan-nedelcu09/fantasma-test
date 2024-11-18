@@ -1,6 +1,6 @@
 /**
- *  IGT
- *  Copyright 2024 IGT
+ *  Fantasma test project - Simple Slot
+ *  Copyright 2024 Nedelcu Petrica Bogdan
  *  All Rights Reserved.
  *
  *  NOTICE: You may not use, distribute or modify this document without the
@@ -17,10 +17,10 @@ import {SimpleSlotResourceLoader} from "app/utils/generics/simple-slot-resource-
 import {SimpleSlotScreenSize} from "app/utils/generics/simple-slot-screen-size";
 import {SimpleSlotCallbackInterface} from "app/utils/interfaces/simple-slot-callback-interface";
 import {SimpleSlotTweenConfigInterface} from "app/utils/interfaces/simple-slot-tween-config-interface";
-import Container = PIXI.Container;
 import _ from "lodash";
 import {AssetPriority} from "pixi-assets-loader";
 import {Graphics, Point, Sprite} from "pixi.js";
+import Container = PIXI.Container;
 
 export class SimpleSlotWheelView extends SimpleSlotAbstractView {
     protected reelContainer: Container;
